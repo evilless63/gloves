@@ -1,0 +1,646 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'robotoLight';
+  src: url(../fonts/robotoLight.ttf); }
+
+@font-face {
+  font-family: 'robotoThinItalic';
+  src: url(../fonts/robotoThinItalic.ttf); }
+
+@font-face {
+  font-family: 'robotoBlack';
+  src: url(../fonts/robotoBlack.ttf); }
+
+@font-face {
+  font-family: 'robotoRegular';
+  src: url(../fonts/robotoRegular.ttf); }
+
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.header {
+  text-align: center; }
+
+.header__logo {
+  width: 222px;
+  height: 85px;
+  margin-top: 10px; }
+
+.header__h1 {
+  font-family: 'robotoLight';
+  font-weight: 100;
+  font-size: 41.67px;
+  text-transform: uppercase;
+  margin-top: 35px; }
+
+.header__video iframe {
+  border-radius: 5px; }
+
+.header__h2 {
+  font-family: 'robotoLight';
+  font-weight: 100;
+  font-size: 33.33px;
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-bottom: 15px; }
+
+.header__h3 {
+  font-family: 'robotoLight';
+  font-weight: 100;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 0px; }
+
+.header__button {
+  font-family: 'robotoLight';
+  font-size: 25px;
+  color: #fff;
+  background-color: #eb8b02;
+  width: 240px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer; }
+
+.arrowBottomWrapper {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.weChoose {
+  background-color: #006699;
+  text-align: center;
+  margin: 0 auto; }
+
+.weChoose__h1 {
+  font-family: 'roboto';
+  font-size: 41.67px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 28px;
+  margin-bottom: 30px; }
+
+.weChooseBlock {
+  width: 14.28571%;
+  display: inline-block; }
+
+.weChooseBlock__text-dachnik:before {
+  content: '';
+  position: absolute;
+  background-color: #fcf126;
+  width: 29px;
+  height: 6px;
+  top: -15px;
+  left: 57px; }
+
+.weChooseBlock__text-builder:before {
+  content: '';
+  position: absolute;
+  background-color: #339c12;
+  width: 29px;
+  height: 6px;
+  top: -15px;
+  left: 57px; }
+
+.weChooseBlock__text-worker:before {
+  content: '';
+  position: absolute;
+  background-color: #5ddbf6;
+  width: 29px;
+  height: 6px;
+  top: -15px;
+  left: 57px; }
+
+.weChooseBlock__text-army:before {
+  content: '';
+  position: absolute;
+  background-color: #f25944;
+  width: 29px;
+  height: 6px;
+  top: -15px;
+  left: 57px; }
+
+.weChooseBlock__text-hunter:before {
+  content: '';
+  position: absolute;
+  background-color: #6d7bbb;
+  width: 29px;
+  height: 6px;
+  top: -15px;
+  left: 57px; }
+
+.weChooseBlock__text-tourist:before {
+  content: '';
+  position: absolute;
+  background-color: #a2f14d;
+  width: 29px;
+  height: 6px;
+  top: -15px;
+  left: 57px; }
+
+.weChooseBlock__text {
+  position: relative;
+  font-family: 'robotoLight';
+  font-size: 20.83px;
+  color: #fff;
+  margin-top: 22px;
+  padding-bottom: 35px; }
+
+.product {
+  text-align: center; }
+
+.product__h1 {
+  font-family: roboto;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 31.69px;
+  padding-top: 62px;
+  padding-bottom: 60px;
+  color: #1fa7ee; }
+
+.productSliderIteration {
+  position: relative; }
+
+.productSliderBlock {
+  width: 238px; }
+
+.productSliderBlockMaterial, .productSliderBlockWeaving, .productSliderBlockTechnology, .productSliderBlockApplication, .productSliderBlockStrength, .productSliderBlockUsability {
+  position: absolute; }
+
+.productSliderBlockMaterial {
+  top: 60px;
+  left: 40px; }
+
+.productSliderBlockWeaving {
+  top: 260px; }
+
+.productSliderBlockTechnology {
+  top: 450px;
+  left: 115px; }
+
+.productSliderBlockApplication {
+  top: 20px;
+  right: 40px; }
+
+.productSliderBlockStrength {
+  top: 260px;
+  right: 0px; }
+
+.productSliderBlockUsability {
+  top: 480px;
+  right: 95px; }
+
+.productSliderBlock__h3 {
+  font-size: 20.83px;
+  font-family: 'robotoLight';
+  margin-bottom: -10px; }
+
+.productSliderBlock__description {
+  font-size: 16.67px;
+  font-family: 'robotoLight'; }
+
+.productSliderBlockMaterial__h3:before {
+  content: '1';
+  font-family: 'robotoBlack';
+  font-size: 20.83px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #f7f419;
+  position: absolute;
+  -webkit-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  line-height: 40px;
+  top: -28px;
+  left: 99px; }
+
+.productSliderBlockWeaving__h3:before {
+  content: '2';
+  font-family: 'robotoBlack';
+  font-size: 20.83px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #f7f419;
+  position: absolute;
+  -webkit-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  line-height: 40px;
+  top: -28px;
+  left: 99px; }
+
+.productSliderBlockTechnology__h3:before {
+  content: '3';
+  font-family: 'robotoBlack';
+  font-size: 20.83px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #f7f419;
+  position: absolute;
+  -webkit-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  line-height: 40px;
+  top: -28px;
+  left: 99px; }
+
+.productSliderBlockApplication__h3:before {
+  content: '4';
+  font-family: 'robotoBlack';
+  font-size: 20.83px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #f7f419;
+  position: absolute;
+  -webkit-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  line-height: 40px;
+  top: -28px;
+  left: 99px; }
+
+.productSliderBlockStrength__h3:before {
+  content: '5';
+  font-family: 'robotoBlack';
+  font-size: 20.83px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #f7f419;
+  position: absolute;
+  -webkit-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  line-height: 40px;
+  top: -28px;
+  left: 99px; }
+
+.productSliderBlockUsability__h3:before {
+  content: '6';
+  font-family: 'robotoBlack';
+  font-size: 20.83px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #f7f419;
+  position: absolute;
+  -webkit-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 4px 0px rgba(0, 0, 0, 0.2);
+  line-height: 40px;
+  top: -28px;
+  left: 99px; }
+
+.productSlider__h2 {
+  font-family: 'robotoLight';
+  font-size: 20.83px; }
+
+.productSliderBlockAbilities {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+  margin: 0 auto; }
+
+.productSliderBlockAbilitiesFire, .productSliderBlockAbilitiesWater, .productSliderBlockAbilitiesKnife {
+  display: flex;
+  align-items: center; }
+
+.productSliderBlockAbilities_text {
+  font-family: 'robotoThinItalic';
+  font-size: 16.67px;
+  font-weight: 600;
+  padding-left: 7px; }
+
+.getProduct {
+  margin-top: 55px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline; }
+
+.getProduct > div, .getProduct > input {
+  margin: 0px 12px; }
+
+.getProduct__setCount, .getSumm__setPrice {
+  font-family: 'robotoBlack';
+  font-size: 16.67px;
+  border: 1px solid #0c9ffe;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0px; }
+
+.getCount, .getProduct__setCount {
+  width: 80px; }
+
+.getSumm, .getSumm__setPrice {
+  width: 120px; }
+
+.getProduct__submit {
+  font-family: 'robotoLight';
+  font-size: 25px;
+  color: #fff;
+  background-color: #eb8b02;
+  width: 240px;
+  display: inline-block;
+  border-radius: 5px;
+  border: none !important;
+  padding: 5px;
+  line-height: 45px;
+  -webkit-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer; }
+
+.getProduct__text, .getSumm__text {
+  font-family: 'robotoThinItalic';
+  font-weight: 600;
+  font-size: 16.67px;
+  color: #0c9ffe;
+  text-transform: lowercase; }
+
+.sliderControl {
+  background-color: #006699; }
+
+.sliderControl__rightArrow, .sliderControl__leftArrow {
+  cursor: pointer; }
+
+.sliderControlMainBlock {
+  margin: 45px 40px;
+  display: flex;
+  border: 1px solid #eb8b02;
+  border-radius: 5px;
+  justify-content: space-around;
+  box-sizing: content-box; }
+
+.sliderControlChooseProduct {
+  width: 14.28571%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px; }
+
+.sliderControlChooseProduct__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+  margin-top: 20px;
+  display: inline-block; }
+
+.sliderControlChooseProduct__text {
+  font-family: 'robotoLight';
+  font-size: 20.83px;
+  color: #fff; }
+
+.sliderControlFlex {
+  display: flex;
+  align-items: center; }
+
+.clients {
+  text-align: center; }
+
+.clients__h1 {
+  font-family: 'roboto';
+  font-size: 41.67px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1fa7ee; }
+
+.clientsVideoRow {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  margin-top: 18px; }
+
+.clientsVideo {
+  width: 33.33333%; }
+
+.recommendations {
+  background-color: #006699;
+  text-align: center; }
+
+.recommendations__h1 {
+  font-family: 'roboto';
+  font-size: 41.67px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 30px;
+  text-transform: uppercase; }
+
+.recommendationsRow {
+  display: flex;
+  align-content: space-around;
+  align-items: baseline; }
+
+.recommendationsBlock {
+  width: 25%;
+  text-align: center; }
+
+.recommendationsRow__image {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: #3595e7;
+  display: inline-block; }
+
+.recommendationsRow__text {
+  font-family: 'robotoLight';
+  font-style: italic;
+  font-size: 16.67px;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  padding: 10px 23px 35px; }
+
+.cooperationHeader__h1 {
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 41.67px;
+  color: #1fa7ee;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 50px auto; }
+
+.cooperationDilers, .cooperationManufacturers {
+  background-color: #006699; }
+
+.cooperationDilers__h2, .cooperationManufacturers__h2 {
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 20.83px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 14px; }
+
+.cooperationDilersRow, .cooperationManufacturersRow {
+  display: flex;
+  align-content: space-around;
+  align-items: baseline; }
+
+.cooperationDilersBlock, .cooperationDilersBlock-last {
+  width: 20%;
+  text-align: center;
+  position: relative; }
+
+.cooperationManufacturersBlock, .cooperationManufacturersBlock-last {
+  width: 25%;
+  text-align: center;
+  position: relative; }
+
+.cooperationDilersBlock__image, .cooperationManufacturersBlock__image {
+  font-family: 'robotoLight';
+  font-size: 58.33px;
+  color: #eb8b02;
+  line-height: 100px;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block; }
+
+.cooperationDilersBlock:before {
+  content: url(../../images/nextArrow.png);
+  position: absolute;
+  left: 160px;
+  top: 45px; }
+
+.cooperationManufacturersBlock:before {
+  content: url(../../images/nextArrow.png);
+  position: absolute;
+  left: 220px;
+  top: 45px; }
+
+.cooperationDilersBlock-last:before, .cooperationManufacturersBlock-last:before {
+  content: ''; }
+
+.cooperationDilersBlock__text, .cooperationManufacturersBlock__text {
+  font-family: 'robotoLight';
+  font-size: 16.67px;
+  color: #fff;
+  padding: 10px 23px; }
+
+.getApplication {
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-content: space-around;
+  align-items: center; }
+
+.getApplication__arrowBottom {
+  content: url(../../images/arrow_down.png);
+  margin: 100px 40px 10px 0px; }
+
+.getApplication__arrowUp {
+  content: url(../../images/arrow_up.png);
+  margin: 0px 0px 0px 40px; }
+
+.getApplication__button {
+  font-family: 'robotoLight';
+  font-size: 25px;
+  color: #fff;
+  background-color: #eb8b02;
+  width: 240px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 35px; }
+
+.info {
+  text-align: center; }
+
+.info__h1 {
+  font-family: 'roboto';
+  font-size: 41.67px;
+  font-weight: 400;
+  color: #1fa7ee;
+  text-transform: uppercase; }
+
+.info__video iframe {
+  border-radius: 5px; }
+
+.info__h2 {
+  font-family: 'robotoLight';
+  font-size: 25px;
+  color: #3595e7;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.info__copyright {
+  font-family: 'robotoLight';
+  font-size: 12.5px;
+  margin-top: 45px;
+  display: block; }
+
+.infoContacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px; }
+
+.infoContacts > div {
+  width: 50%; }
+
+.infoAdress {
+  text-align: right;
+  margin-right: 40px; }
+
+.infoMail {
+  text-align: left;
+  margin-left: 10px; }
+
+.infoAdress > span, .infoMail > span {
+  display: block;
+  font-family: 'robotoLight';
+  font-size: 16.67px;
+  color: #3595e7; }
+
+.infoAdress__phone {
+  font-size: 20.26px; }
+
+.modalForm {
+  width: 385px;
+  height: 528px;
+  background-color: #006699;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px; }
+
+.modalForm > input, .modalForm > textarea {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #006699; }
+
+.modalForm__submit {
+  font-family: 'robotoLight';
+  font-size: 25px;
+  color: #fff;
+  background-color: #eb8b02;
+  width: 240px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -1px -1px 3px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer; }

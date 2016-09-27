@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Фабрика перчаток</title>
+	<link rel="stylesheet" href="dist/css/styles.css">
+	<link rel="stylesheet" href="dist/css/remodal_styles.css">
+	<link rel="stylesheet" href="dist/css/remodal.css">
+</head>
+<body>
+	<header class="header container">
+		<img src="images/logo.png" alt="Логотип Фабрика перчаток" class="header__logo">
+		<h1 class="header__h1">Прочные, водо - и огнеупорные перчатки для удобной и безопасной работы</h1>
+		<div class="header__video">
+			<iframe width="735" height="470" src="https://www.youtube.com/embed/lRAY1-dPpqA" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<h2 class="header__h2">Убедитесь сами !</h2>
+		<h3 class="header__h3">Не сможете повторить - мы вернем Вам деньги</h3>
+		<div class="header__button">Попробовать</div>
+			<div class="arrowBottomWrapper">
+				<img src="images/arrow_bottom.png" alt="Стрелка вниз" class="header__arrowBottom">
+			</div>
+		
+	</header> 
+	<section class="weChoose">
+		<div class="container">
+			<h1 class="weChoose__h1">Нас выбирают</h1>
+			<div class="weChooseBlock">
+				<img src="images/choose_section_img/choose_section_dachnik.png" alt="Дачник" class="weChooseBlock__img ">
+				<p class="weChooseBlock__text weChooseBlock__text-dachnik">Дачник</p>
+			</div>
+			<div class="weChooseBlock">
+				<img src="images/choose_section_img/choose_section_builder.png" alt="Строитель" class="weChooseBlock__img ">
+				<p class="weChooseBlock__text weChooseBlock__text-builder">Строитель</p>
+			</div>
+			<div class="weChooseBlock">
+				<img src="images/choose_section_img/choose_section_worker.png" alt="Рабочий" class="weChooseBlock__img ">
+				<p class="weChooseBlock__text weChooseBlock__text-worker">Рабочий</p>
+			</div>
+			<div class="weChooseBlock">
+				<img src="images/choose_section_img/choose_section_army.png" alt="Боец" class="weChooseBlock__img ">
+				<p class="weChooseBlock__text weChooseBlock__text-army">Боец</p>
+			</div>
+			<div class="weChooseBlock">
+				<img src="images/choose_section_img/choose_section_hunter.png" alt="Охотник" class="weChooseBlock__img ">
+				<p class="weChooseBlock__text weChooseBlock__text-hunter">Охотник</p>
+			</div>
+			<div class="weChooseBlock">
+				<img src="images/choose_section_img/choose_section_tourist.png" alt="Турист" class="weChooseBlock__img ">
+				<p class="weChooseBlock__text weChooseBlock__text-tourist">Турист</p>
+			</div>
+		</div>
+	</section>
+	<section class="product container remodal-bg">
+		<h1 class="product__h1">
+			Не просто перчатки
+		</h1>
+		<div id="imageGallery" class="flexslider productSlider ">
+			<ul class="slides imageGallery">
+			</ul>
+		</div>
+	</section>
+		<div class="remodal modalApplication" data-remodal-id="modalApplication">
+			<form action="" class="modalForm">
+				<label for="modalForm__name">Ваше имя*</label>
+				<input type="text" name="modalForm__name" class="modalForm__name">
+				<label for="modalForm__phone">Ваш телефон*</label>
+				<input type="text" name="modalForm__name" class="modalForm__phone">
+				<h3 class="modalForm__question">Что Вас интересует ?</h3>
+				<label for="modalForm__diller">Статус диллера</label>
+				<input type="checkbox" name="modalForm__diller" class="modalForm__diller">
+				<label for="modalForm__manufacturer">Статус производителя</label>
+				<input type="checkbox" name="modalForm__manufacturer" class="modalForm__manufacturer">
+				<label for="modalForm__comment">Комментарий:</label>
+				<textarea name="modalForm__comment" id="modalForm__comment" cols="30" rows="10" class="modalForm__comment"></textarea>
+				<button data-remodal-action="confirm" class="modalForm__submit">Оставить заявку</button>
+			</form>
+		</div>
+	<section class="sliderControl remodal-bg">
+		<div class="container sliderControlFlex">
+			<div class="bx-prev sliderControl__leftArrow">
+				<img src="images/leftArrow.png" alt="">
+			</div>			
+			<div id="bx-pager" class="flexslider sliderControlMainBlock ">
+				<ul class="slides imageCarousel">
+				</ul>		
+			</div>
+			<div class="bx-next sliderControl__rightArrow">
+				<img src="images/rightArrow.png" alt="1">
+			</div>
+		</div>
+	</section>
+	<section class="clients">
+		<div class="container">
+			<h1 class="clients__h1">
+				Слово клиентам
+			</h1>
+			<div class="clientsVideoRow">
+				<div class="clientsVideo">
+					<iframe src="https://www.youtube.com/embed/zVibgAOfOXg" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="clientsVideo">
+					<iframe src="https://www.youtube.com/embed/tysmehR7wZE" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="clientsVideo">
+					<iframe src="https://www.youtube.com/embed/L6Dl4pqqlKc" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="clientsVideoRow">
+				<div class="clientsVideo">
+					<iframe src="https://www.youtube.com/embed/e8PnVRoZCsk" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="clientsVideo">
+					<iframe src="https://www.youtube.com/embed/HDDWpHlbdTM" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="clientsVideo">
+					<iframe src="https://www.youtube.com/embed/kXvrnwmqKlM" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recommendations">
+		<div class="container">
+			<h1 class="recommendations__h1">
+				Нас рекомендуют
+			</h1>
+			<div class="recommendationsRow">
+				<div class="recommendationsBlock">
+					<div class="recommendationsRow__image"></div>
+					<span class="recommendationsRow__text">“Самарские стратегии”</span>
+				</div>
+				<div class="recommendationsBlock">
+					<div class="recommendationsRow__image"></div>
+					<span class="recommendationsRow__text">премия “бизнес-успех” “Лучший продукт в сфере торговли и услуг”</span>
+				</div>
+				<div class="recommendationsBlock">
+					<div class="recommendationsRow__image"></div>
+					<span class="recommendationsRow__text">технопарк “жигулевкая долина”</span>
+				</div>
+				<div class="recommendationsBlock">
+					<div class="recommendationsRow__image"></div>
+					<span class="recommendationsRow__text">кто-то еще</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container ">
+		<h1 class="cooperationHeader__h1">
+			Приглашаем к сотрудничеству
+		</h1>
+	</section>
+	<section class="cooperationDilers remodal-bg">
+		<div class="container">
+			<h2 class="cooperationDilers__h2">
+				Дилеров
+			</h2>
+			<div class="cooperationDilersRow">
+				<div class="cooperationDilersBlock">
+					<div class="cooperationDilersBlock__image">1</div>
+					<div class="cooperationDilersBlock__text">Закупка пробной партии по 10 пар тех. перчаток любых 5 и более видов</div>
+				</div>
+				<div class="cooperationDilersBlock">
+					<div class="cooperationDilersBlock__image">2</div>
+					<div class="cooperationDilersBlock__text">Пробная реализация. Наценка до 10%</div>
+				</div>
+				<div class="cooperationDilersBlock">
+					<div class="cooperationDilersBlock__image">3</div>
+					<div class="cooperationDilersBlock__text">Анализ спроса. Определите самые популярные модели</div>
+				</div>
+				<div class="cooperationDilersBlock">
+					<div class="cooperationDilersBlock__image">4</div>
+					<div class="cooperationDilersBlock__text">Статус дилера. Скидка 20% при  звкупке от 20 000 руб</div>
+				</div>
+				<div class="cooperationDilersBlock-last">
+					<div class="cooperationDilersBlock__image">5</div>
+					<div class="cooperationDilersBlock__text">Наценка до 35% Партнерская скидка  20% + собственная наценка до 15%</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="getApplication remodal-bg">
+		<div class="getApplicationBlock getApplication__arrowBottom"></div>
+		<div class="getApplicationBlock getApplication__button" data-remodal-target="modalPartnership">Оставить заявку</div>
+		<div class="getApplicationBlock getApplication__arrowUp"></div>
+	</section>
+		<div class="remodal modal" data-remodal-id="modalPartnership">
+			<form action="" class="modalForm">
+				<label for="modalForm__name"></label>
+				<input type="text" name="modalForm__name" class="modalForm__name">
+				<label for="modalForm__phone"></label>
+				<input type="text" name="modalForm__name" class="modalForm__phone">
+				<select name="modalForm__selectProduct" id="modalForm__selectProduct">
+					<option value="modalForm__selectProduct-product1"></option>
+					<option value="modalForm__selectProduct-product1"></option>
+					<option value="modalForm__selectProduct-product1"></option>
+					<option value="modalForm__selectProduct-product1"></option>
+					<option value="modalForm__selectProduct-product1"></option>
+					<option value="modalForm__selectProduct-product1"></option>
+					<option value="modalForm__selectProduct-product1"></option>
+				</select>
+				<select name="modalForm__selectCount" id="modalForm__selectCount">
+					<option value=""></option>
+				</select>
+				<input type="button" class="modalForm__submit">
+				<button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+  				<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+			</form>
+		</div>
+	<section class="cooperationManufacturers remodal-bg">
+		<div class="container">
+			<h2 class="cooperationDilers__h2">
+				Производителей
+			</h2>
+			<div class="cooperationManufacturersRow">
+				<div class="cooperationManufacturersBlock">
+					<div class="cooperationManufacturersBlock__image">6</div>
+					<div class="cooperationManufacturersBlock__text">Определение ассортимента. Выпускайте наши модели или разработайте свои</div>
+				</div>
+				<div class="cooperationManufacturersBlock">
+					<div class="cooperationManufacturersBlock__image">7</div>
+					<div class="cooperationManufacturersBlock__text">Планирование объемов. Подумайте, сколько Вы хотите выпускать в месяц</div>
+				</div>
+				<div class="cooperationManufacturersBlock">
+					<div class="cooperationManufacturersBlock__image">8</div>
+					<div class="cooperationManufacturersBlock__text">Заключение договора. Оформляем наши договоренности</div>
+				</div>
+				<div class="cooperationManufacturersBlock-last">
+					<div class="cooperationManufacturersBlock__image">9</div>
+					<div class="cooperationManufacturersBlock__text">Создание производства. Наши сотрудники приезжают к  Вам и запускают фабрику под ключ!</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="info container">
+		<h1 class="info__h1">
+			Подробная информация
+		</h1>
+		<div class="info__video">
+		<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="735" height="470" src="https://prezi.com/embed/p1zxhgdixj2f/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE12dnVPR3NYK3dEUTB4VWdNK2VDR1lNOE1YTGZLcmpLZjF5NUF4WHlEaz0&amp;landing_sign=m81QOP8LDNWLOKWDYo-ak2Yz1UirXtU5BirWjSWCQQQ"></iframe>
+		</div>
+		<a href="docs/new.pdf" class="info__h2">
+			Скачать презентацию
+		</a>
+		<span class="info__copyright">
+			&sect; Фабрика перчаток 2016 г
+		</span>
+		<div class="infoContacts">
+			<div class="infoAdress">
+				<span class="infoAdress__adress">Самара, Гаражный проезд, 2</span>
+				<span class="infoAdress__phone">+7 927 705 17 53</span>
+			</div>
+			<div class="infoMail">
+				<span class="infoMail__mainMail">info2@perchatki63.ru</span>
+				<span class="infoMail__anotherMail">info2@perchatki63.ru</span>
+			</div>
+		</div>
+
+	</section>
+	<script src="dist/js/jquery-2.2.3.min.js"></script>	
+	<script src="dist/js/jquery.flexslider-min.js"></script>
+	<script src="dist/js/remodal.js"></script>	
+	<script src="dist/js/scripts.js"></script>
+</body>
+</html>
